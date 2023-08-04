@@ -19,7 +19,7 @@ def reverse_string(string):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     list1 = [1, 2, 3, 4]
-    print_hi(list1)
+    print(print_hi(list1))
     print(reverse_string("Devansh"))
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
