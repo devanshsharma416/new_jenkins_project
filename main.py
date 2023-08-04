@@ -10,10 +10,13 @@ def print_hi(name):
         print(i)
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def reverse_string(string):
+    return string[::-1]
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
+    print(reverse_string("Devansh"))
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
