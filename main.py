@@ -7,9 +7,9 @@
 def print_hi(list1):
 
     if len(list1) == len(set(list1)):
-        return "List have unique elements"
+        return "List has unique elements"
     else:
-        return "List have duplicate elements"
+        return "List has duplicate elements"
     return -1
 
 def reverse_string(string):
