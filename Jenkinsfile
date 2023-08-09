@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Test for multibranch pipeline') {
             steps {
-                sh 'echo "This is a multibranch pipeline"'
+                sh 'echo "I am branch dev-2"'
             }
         }
     }
